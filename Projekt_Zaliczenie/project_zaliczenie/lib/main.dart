@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Color(0xFFf9f9f9),
         elevation: 0.0,
-        title: const Text("Aplikacja Pogodofwa", style: TextStyle(color: Colors.black),
+        title: const Text("Aplikacjra Pogodofwa", style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,
         leading: IconButton(
