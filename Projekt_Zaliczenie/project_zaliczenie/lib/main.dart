@@ -43,7 +43,7 @@ void initState() {
       appBar: AppBar(
         backgroundColor: Color(0xFFf9f9f9),
         elevation: 0.0,
-        title: const Text("Aplikacja Pogodowa", style: TextStyle(color: Colors.black),
+        title: const Text("Weather Forecast", style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,
         leading: IconButton(
@@ -55,7 +55,7 @@ void initState() {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          currentWeather(Icons.wb_sunny_rounded, "26.3 C", "Georgia"),
+          currentWeather(Icons.wb_sunny_rounded, "26.3 C", "Warsaw"),
           SizedBox(height: 60.0,
           ),
           Text(
